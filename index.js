@@ -18,3 +18,16 @@ function makeInt(a) {
   var value = parseInt(a)
   return value
 }
+
+function inc(n) {
+  return n++
+}
+
+function dec(n) {
+  return n--
+}
+
+function preserveDecimal(n) {
+  var value = parseFloat(n)
+  return value
+}
